@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+  line-height: 1.5;
+}
+
+nav {
+  padding: 12px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+nav a {
+  margin-right: 16px;
+  text-decoration: none;
+  color: #c0661a;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a.active {
+  text-decoration: underline;
+  color: #7a3e0b;
+}
+
+h1 {
+  text-align: center;
+  color: #c0661a;
+}
+
+/* «Красиво виділити» блок довіри */
+.trust {
+  background: #fff4e5;
+  border: 2px solid #e67e22;
+  border-radius: 8px;
+  padding: 12px 12px 12px 36px;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.photos img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+  margin-top: 32px;
+  padding: 12px 0;
+  border-top: 1px solid #ccc;
+  color: #666;
+}
